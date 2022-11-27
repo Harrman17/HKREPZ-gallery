@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgb(16, 16, 16);
+}
+
+
+nav {
+    background-color: #212225;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+#logo,#links,button:hover {
+    cursor: pointer;
+}
+
+li {
+    font-weight: 550;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    transition: color 0.7s;
+}
+
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    height: 55px;
+    width: 55px;
+    transition: ease 0.7s;
+}
+
+#logo:hover {
+    opacity: 0.5;
+    
+}
+
+
+button {
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 550;
+    transition: ease 0.5s;
+}
+
+#contact {
+    padding: 10px 25px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.gallery img {
+    width: 400px;
+    height: 500px;
+    outline: 2px solid white;
+    transition: ease 0.5s;
+    margin: 40px 30px;
+    
+}
+
+.gallery img:hover {
+    outline: 3px solid red;
+}
+
+nav {
+    border-radius: 5px;
+}
